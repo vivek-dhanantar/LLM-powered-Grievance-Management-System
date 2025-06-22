@@ -23,3 +23,27 @@ Grievance chatbot using Streamlit, SQLite, FastAPI, and locally hosted Qwen 3 vi
                        │   Ollama LLM    │
                        │   (Processing)  │
                        └─────────────────┘
+
+# Pre-Requirements
+
+1. Python Environment
+Python 3.9+
+Ensure Python is installed and available in your system PATH.
+
+2. SQLite (built-in with Python)
+No separate installation needed. Python’s sqlite3 module handles it.
+Used to store complaint records locally.
+
+3. Ollama (for Qwen 3 Model)
+      Install Ollama from: https://ollama.com
+
+Pull the Qwen 3 model:
+      ollama run qwen:3b
+      or 
+      chose any huggingface model
+4. Text Editor or IDE
+VS Code, PyCharm, or any code editor for writing and running Python code.
+
+5. Optional Tools
+Postman: For testing FastAPI endpoints.
+SQLite Browser: GUI to view/edit database contents.
